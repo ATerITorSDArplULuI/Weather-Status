@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Casphial (Batuhan Kurkut)">
+    <meta name="description" content="Up to date Weather, Fast running system And More Now Here">
+    <link rel="shortcut icon" href="./Assets/Icons/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Assets/Styles/Style.css">
+    <title>Up to date Weather - Fast running system - And More | Casphial (Batuhan Kurkut) - The Best for You</title>
+</head>
+<body onload="Modal()">
+
+    <!-- Weather Start -->
+    <div class="Weather" id="Weather">
+        <div class="Weather-Inner">
+            <img src="./Assets/Images/Status.png" alt="Image" height="95" width="95">
+            <h1>Weather Status</h1>
+            <p id="Status">Search Your City</p>
+            <input type="text" name="Location" id="Location">
+            <button onclick="Weather()" id="Search">Search</button>
+            <p>Developed By <b><a href="#">Casphial</a></b></p>
+        </div>
+    </div>
+    <!-- Weather End -->
+
+    <!-- Modal Start -->
+    <div class="Modal" id="Modal">
+        <div class="Modal-Inner">
+            <img src="./Assets/Images/Info.png" alt="Image" height="95" width="95">
+            <h1>Weather Info</h1>
+            <p id="City">City</p>
+            <p><span id="Temparature">Temparature</span>&deg;C</p>
+            <p id="Description"></p>
+        </div>
+    </div>
+    <!-- Modal End -->
+
+    <!-- Script Start -->
+    <script src="./Assets/JS/Weather.js"></script>
+    <!-- Script End -->
+
+    <!-- Script Start -->
+    <script src="./Assets/JS/Modal.js"></script>
+    <!-- Script End -->
+
+</body>
+</html>
